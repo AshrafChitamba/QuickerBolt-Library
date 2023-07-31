@@ -1,1 +1,1 @@
-export * from "./components"
+export { MessageForm } from "./components"

@@ -1,7 +1,7 @@
 import React from "react";
 import { MessageFormProps } from "../types";
 
-const MessageForm = ({ messsageInput, submitButton }: MessageFormProps) => {
+export const MessageForm = ({ messsageInput, submitButton }: MessageFormProps) => {
   return (
     <div>
       <input
@@ -17,4 +17,3 @@ const MessageForm = ({ messsageInput, submitButton }: MessageFormProps) => {
   );
 };
 
-export default MessageForm;

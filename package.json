@@ -1,6 +1,6 @@
 {
   "name": "quickerbolt",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A chatbolt library to help developers integrate a chat system in their prefered web apps",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
