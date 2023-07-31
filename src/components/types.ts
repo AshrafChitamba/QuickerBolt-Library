@@ -1,16 +1,18 @@
 import { MouseEventHandler, CSSProperties, ChangeEventHandler } from "react";
 
 export type MessageFormProps = {
-    messsageInput: {
+    messsageInput?: {
         placeholder: string
         inputStyle?: CSSProperties
+        className?: string
         onChange?: ChangeEventHandler<HTMLInputElement>
     }
 
-    submitButton: {
+    submitButton?: {
         text?: string;
         disabled?: boolean;
         btnStyle?: CSSProperties
+        className?: string
         onClick?: MouseEventHandler<HTMLButtonElement>;
     }
 }
